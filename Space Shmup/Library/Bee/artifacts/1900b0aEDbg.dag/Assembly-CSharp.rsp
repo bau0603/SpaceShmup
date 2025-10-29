@@ -356,10 +356,17 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/__Scripts/BoundsCheck.cs"
 "Assets/__Scripts/Enemy.cs"
+"Assets/__Scripts/Enemy_1.cs"
+"Assets/__Scripts/Enemy_2.cs"
+"Assets/__Scripts/Enemy_3.cs"
+"Assets/__Scripts/Enemy_4.cs"
 "Assets/__Scripts/Hero.cs"
 "Assets/__Scripts/Main.cs"
+"Assets/__Scripts/PowerUp.cs"
 "Assets/__Scripts/Projectile.cs"
 "Assets/__Scripts/Shield.cs"
+"Assets/__Scripts/Utils.cs"
+"Assets/__Scripts/Weapon.cs"
 -langversion:9.0
 /deterministic
 /optimize-
