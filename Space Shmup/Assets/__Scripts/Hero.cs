@@ -25,18 +25,12 @@ public class Hero : MonoBehaviour
 
     public WeaponFireDelegate fireDelegate;
 
-    void Awake()
+    void Start()
     {
-        if (S == null)
-        {
-            S = this;
-        }
-        else
-        {
-            Debug.LogError("Hero.Awake() - Attempted to assign second Hero.S!");
-        }
+        S = this;
 
-        //fireDelegate += TempFire;
+        ClearWeapons();
+        weapons[0].SetType(WeaponType.blaster);
     }
 
     void Update()
