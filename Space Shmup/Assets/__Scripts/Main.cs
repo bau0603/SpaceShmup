@@ -1,3 +1,6 @@
+// CS382 Project 3: Space Shmup
+// Done by Brandon Au and Jack Caesar
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
